@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  background-image: url("https://media.istockphoto.com/id/1134159071/photo/empty-cafeteria.jpg?s=2048x2048&w=is&k=20&c=K2u_PJSMzl9Lc0QPq_hBISBzTDK-fBhRA4aSLY-t4YQ=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+}
+
+.container img {
+  height: 450px;
+  width: 990px;
+  position: relative;
+  left: 248px;
+  border: 0.5px solid black;
+}
+
+button {
+  height: 60px;
+  width: 294px;
+  font-size: 45px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  margin-left: 50px;
+  color: rgb(39, 9, 9);
+}
+
+.btns {
+  position: relative;
+  left: 199px;
+  bottom: 64px;
+}
+
+a button:hover {
+  background-color: rgb(5, 38, 67);
+  font-size: xx-large;
+  transition: ease-in-out 2s;
+}
+
+#box1 {
+  background-color: rgb(224, 14, 14);
+}
+
+#box2 {
+  background-color: rgb(115, 255, 65);
+}
+
+#box3 {
+  background-color: skyblue;
+}
+.btns button {
+  cursor: pointer;
+}
+
+.container img:hover {
+  border: 2px solid rgb(220, 212, 212);
+}
+#box1:hover {
+  background-color: rgba(142, 159, 216, 0.727);
+}
+#box2:hover {
+  background-color: rgba(39, 66, 9, 0.224);
+}
+#box3:hover {
+  background-color: rgba(170, 74, 146, 0.458);
+}
