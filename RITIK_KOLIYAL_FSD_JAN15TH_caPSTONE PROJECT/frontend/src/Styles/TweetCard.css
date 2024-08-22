@@ -1,0 +1,115 @@
+.tweet-card {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f5f8fa;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.original-tweet {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+.tweet-card-header img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.tweet-card-header .user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.tweet-card-header .user-info .username {
+  font-weight: bold;
+}
+
+.tweet-card-header .user-info .timestamp {
+  color: #657786;
+  font-size: 0.9rem;
+}
+
+.tweet-card-content {
+  margin-bottom: 10px;
+
+}
+
+.tweet-card-content p {
+  text-decoration: none !important;
+}
+
+.tweet-card-content img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 370px;
+  object-fit: contain;
+}
+
+.tweet-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #e1e8ed;
+}
+
+.tweet-card-footer .icon {
+  display: flex;
+
+  align-items: center;
+  cursor: pointer;
+}
+
+.tweet-card-footer .icon i {
+  margin-right: 5px;
+}
+
+.tweet-card-footer .icon span {
+  font-size: 0.9rem;
+  color: #657786;
+}
+
+
+.tweet-card {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f5f8fa;
+  margin-bottom: 20px;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.tweet-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 8px 0;
+  transition: background-color 0.3s ease;
+  /* Smooth transition */
+
+  /* Other styles */
+}
+
+.tweet-card:hover {
+  background-color: #8dbae683;
+  /* Change color on hover */
+}
+
+.tweet-actions i {
+  color: red;
+  font-size: 15px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.icon i {
+  color: red;
+  cursor: pointer;
+}
