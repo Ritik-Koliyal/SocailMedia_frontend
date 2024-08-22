@@ -1,0 +1,57 @@
+.comment-container {
+  cursor: pointer;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+}
+
+.comment-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.comment-user-info {
+  margin-left: 10px;
+}
+
+.comment-username {
+  font-weight: bold;
+}
+
+.comment-date {
+  color: #555;
+}
+
+.comment-body {
+  margin-top: 10px;
+}
+
+.comment-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.comment-footer span {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.comment-footer i {
+  margin-right: 5px;
+}
+
+.tweet-actions i {
+  color: red !important;
+  font-size: 15px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.icon i {
+  color: red;
+  cursor: pointer;
+}
