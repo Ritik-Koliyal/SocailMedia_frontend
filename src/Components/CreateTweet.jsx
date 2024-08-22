@@ -6,6 +6,7 @@ import axios from 'axios';
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from 'react-router-dom';
+
 function CreateTweet({ updateTweets }) {
   const [image, setImage] = useState({ preview: '', data: null });
   const [content, setContent] = useState("");
