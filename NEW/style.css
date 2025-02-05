@@ -1,0 +1,163 @@
+/* Logo center */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+
+/* Navbar background */
+.navbar {
+  background-color: red !important;
+  padding: 10px 0;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+  .navBar ul {
+    flex-direction: column;
+    align-items: center;
+    /* display: none;
+
+    position: absolute; */
+    top: 50px;
+
+    left: 0;
+    width: 100%;
+    background-color: red;
+    padding: 1px 0;
+  }
+
+  .navBar ul li {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+
+  .navBar.open ul {
+    display: flex;
+  }
+}
+
+/* Hero section styling */
+.banner {
+  position: relative;
+  background: url('https://dreamstour.dreamstechnologies.com/html/assets/img/tours/home-banner-6.jpg') no-repeat center center/cover;
+  height: 40vh;
+  background-attachment: fixed;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+/* Content inside hero section */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 70%;
+}
+
+.hero-content h2 {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.hero-content h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media (max-width:768px) {
+  .hero-content h2 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .hero-content h5 {
+    font-size: 13px;
+    font-weight: 200;
+  }
+}
+
+/* 
+card css start */
+
+.container {
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.deaz {
+  font-size: 14px;
+}
+
+.price-cont {
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.price {
+  font-size: 14px;
+  font-weight: 600;
+
+}
+
+@media (max-widh:768px) {
+  .card {
+    margin-bottom: 1rem;
+  }
+}
+
+/* card css end  */
+.testomonial {
+  background-color: rgba(250, 246, 246, 0.563);
+}
+
+
+.rk-img img {
+  border-radius: 80px;
+  max-width: 100%;
+  height: auto;
+}
+
+.tourism {
+  color: red;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+}
